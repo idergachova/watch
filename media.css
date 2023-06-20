@@ -1,0 +1,75 @@
+
+@media screen and (max-width: 1024px) {
+.container {
+    padding: 0 48px;
+}
+
+.main_info {
+    margin-top: 64px;
+}
+
+h1{
+    font-size: 160px;
+    margin-top: 32px; 
+    margin-bottom: 0;
+}
+
+.main_info p{
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.box_button{
+    margin-bottom: 64px;
+    
+}
+
+.button {
+    font-size: 24px;
+    padding: 24px 54px;
+}
+
+.price{
+    padding: 20px 27px 20px 28px;
+}
+
+}
+
+@media screen and (max-width: 576px) {
+
+.container{
+    flex-direction: column;
+    align-items: center;
+}
+    
+.main_img{
+    display: none;
+} 
+
+.main_info h1 {
+    font-size: 120px;
+    margin-top: 0px;
+ }
+
+.main_info_img{
+    display: inline-block;
+}    
+    
+
+
+}
+
+@media screen and (max-width: 400px){
+.container {
+    padding: 0 32px;
+}
+    
+.box_button{
+     margin-bottom: 48px;
+}
+
+.button{
+    padding: 24px 24px;
+}
+
+}
